@@ -1,0 +1,286 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav {
+  width: 50%; /* Ширина меню */
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 5px 10px; /* Подберите подходящие значения для отступов */
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ff6600;
+}
+
+.content {
+  padding: 20px;
+}
+
+.user-controls {
+  display: flex;
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+  
+.action-button {
+  margin-top: 5px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+  
+.button:hover {
+  background-color: #555;
+}
+
+.transport-group {
+  margin-bottom: 20px;
+  margin: 20px;
+}
+
+.transport-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.transport-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.transport-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.transport-card p {
+  font-size: 1em;
+}
+
+.tour-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+  
+.tour-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 30%;
+}
+  
+.tour-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+  
+.tour-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+  
+.tour-card p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+  
+.tour-card button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+  
+.tour-card button:hover {
+  background-color: #555;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.contact-info div {
+  width: 48%;
+}
+
+.contact-form {
+  padding: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 20px;
+}
+
+.registration-form {
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+  
+.form-group {
+  margin-bottom: 10px;
+}
+  
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+  
+input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+  
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: #060606;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  bottom: 0;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+}
+
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
